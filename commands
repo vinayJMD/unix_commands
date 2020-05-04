@@ -13,3 +13,14 @@ cp -rf *.dat /tmp/vin/
 #to Count number of lines in a file from bottom
 tail t1.dat  //default 10
 tail -n 5 t1.dat //we can set number of lines as well.
+
+#same with top lines of files.
+head t1.dat
+head -n 5 t1.dat
+
+#To open file using
+vi t1.dat //using editior v1
+vim t1 dat //using vim editor  
+cat t1.dat //only to look the file content
+
+
