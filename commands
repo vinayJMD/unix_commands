@@ -2,5 +2,5 @@
 ifconfig -a 
 #serach a particular word case insensitive/with line number/recurrsive manner 
 grep -inr "vinay" *
-##
-awk -F "|"  '{print $47}' t1.dat | sort | uniq -c | wc -l
+#create the list of directories by ignoring the errors if dir already exist.
+mkdir -p /home/vinay/
