@@ -4,3 +4,5 @@ ifconfig -a
 grep -inr "vinay" *
 #create the list of directories by ignoring the errors if dir already exist.
 mkdir -p /home/vinay/
+#forefully and recurrsive copy of files 
+cp -rf *.dat /tmp/vin/
