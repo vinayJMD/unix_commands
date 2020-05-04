@@ -1,8 +1,15 @@
 #list of interfaces in the servers up/down both.
 ifconfig -a 
+
 #serach a particular word case insensitive/with line number/recurrsive manner 
 grep -inr "vinay" *
+
 #create the list of directories by ignoring the errors if dir already exist.
 mkdir -p /home/vinay/
+
 #forefully and recurrsive copy of files 
 cp -rf *.dat /tmp/vin/
+
+#to Count number of lines in a file from bottom
+tail t1.dat  //default 10
+tail -n 5 t1.dat //we can set number of lines as well.
